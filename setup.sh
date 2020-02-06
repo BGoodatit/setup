@@ -204,7 +204,7 @@ brew cask install visual-studio-code-insiders
 
 ### Security
 brew cask install tunnelbear
-brew cask install brew 1password
+brew cask install 1password
 
 
 ### Conferences, Blogging, Screencasts
@@ -272,7 +272,7 @@ brew cleanup
 
 echo "Installing fonts..."
 
-brew tap caskroom/fonts
+brew tap homebrew/cask-fonts
 
 ### programming fonts
 brew cask install font-fira-mono-for-powerline
