@@ -200,24 +200,42 @@ brew install pyenv
 
 
 ### Dev Editors 
-brew cask install visual-studio-code
+brew cask install visual-studio-code-insiders
 
-### Writing
+### Security
+brew cask install tunnelbear
+brew cask install brew 1password
 
 
 ### Conferences, Blogging, Screencasts
 brew cask install screenflow
+brew cask install obs
+brew cask install elgato-stream-deck
+brew cask install loopback
+brew cask install snagit
 
+### Design
+brew cask install sketch
+brew cask install balsamiq-mockups
+brew cask install adobe-creative-cloud
 
 ### Productivity
+brew cask install istat-menus
+brew cask install firefox
 brew cask install google-chrome
 brew cask install alfred
-
+brew cask install onedrive
+brew cask install google-drive-file-stream
+brew cask install kindle
 brew cask install timing  # time and project tracker
 brew cask install keycastr  # show key presses on screen (for gifs & screencasts)
 brew cask install betterzip
 brew cask install caffeine  # keep computer from sleeping
 brew cask install skitch  # app to annotate screenshots
+brew cask install grammarly
+brew cask install microsoft-word
+brew cask install microsoft-excel
+brew cask install microsoft-powerpoint
 
 
 ### Keyboard & Mouse
@@ -235,11 +253,14 @@ brew cask install quicklook-csv  # preview csvs
 
 ### Chat / Video Conference
 brew cask install slack
+brew cask install discord
 brew cask install zoomus
+brew cask install skype
+brew cask install chatty
 
 
 ### Music and Video
-
+brew cask install amazon-music
 
 ### Run Brew Cleanup
 brew cleanup
