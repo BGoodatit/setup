@@ -124,6 +124,9 @@ brew install trash  # move to osx trash instead of rm
 brew install python
 brew install pyenv
 
+### .net core
+brew cask install dotnet-sdk
+
 ### Dev Editors 
 brew cask install visual-studio-code
 
