@@ -138,7 +138,7 @@ brew install pyenv
 
 
 ### Dev Editors 
-brew cask install visual-studio-code-insiders
+brew cask install visual-studio-code
 
 ### Security
 brew cask install tunnelbear
