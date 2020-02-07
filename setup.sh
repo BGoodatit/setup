@@ -493,6 +493,7 @@ git submodule init && git submodule update && git submodule status
 # make symbolic links and change shell to zshell
 # ./makesymlinks.sh
 # upgrade_oh_my_zsh
+popd
 
 
 echo ""
