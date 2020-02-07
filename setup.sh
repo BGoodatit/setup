@@ -108,34 +108,21 @@ defaults write com.irradiatedsoftware.SizeUp StartAtLogin -bool true
 # Don’t show the preferences window on next start
 defaults write com.irradiatedsoftware.SizeUp ShowPrefsOnNextStart -bool false
 
-
-### Developer Tools
-brew cask install iterm2
-brew cask install dash
-brew install ispell
-
-
-### Development
+### Containers
 brew cask install docker
 
-
 ### Command line tools - install new ones, update others to latest version
+brew cask install iterm2
 brew install git  # upgrade to latest
 brew install git-lfs # track large files in git https://github.com/git-lfs/git-lfs
 brew install wget
-brew install zsh # zshell
-brew install tmux
 brew install tree
-brew link curl --force
 brew install grep --with-default-names
 brew install trash  # move to osx trash instead of rm
-brew install less
-
 
 ### Python
 brew install python
 brew install pyenv
-
 
 ### Dev Editors 
 brew cask install visual-studio-code
@@ -145,33 +132,35 @@ brew cask install tunnelbear
 brew cask install 1password
 brew cask install 1password-cli
 
-
 ### Conferences, Blogging, Screencasts
+brew cask install grammarly
 brew cask install screenflow
 brew cask install obs
 brew cask install elgato-stream-deck
 brew cask install loopback
 brew cask install snagit
+brew cask install keycastr  # show key presses on screen (for gifs & screencasts)
 
 ### Design
 brew cask install sketch
 brew cask install balsamiq-mockups
 brew cask install adobe-creative-cloud
 
-### Productivity
-brew cask install istat-menus
-brew cask install firefox
-brew cask install google-chrome
-brew cask install alfred
+### Cloud Storage
 brew cask install onedrive
 brew cask install google-drive-file-stream
+
+### Browsers
+brew cask install firefox
+brew cask install google-chrome
+
+### Productivity
+brew cask install istat-menus
+brew cask install alfred
 brew cask install kindle
 brew cask install timing  # time and project tracker
-brew cask install keycastr  # show key presses on screen (for gifs & screencasts)
 brew cask install betterzip
 brew cask install caffeine  # keep computer from sleeping
-brew cask install skitch  # app to annotate screenshots
-brew cask install grammarly
 brew cask install microsoft-word
 brew cask install microsoft-excel
 brew cask install microsoft-powerpoint
@@ -284,32 +273,6 @@ done
 
 [[ $retries -eq i ]] && echo "Adding ssh-key to GitHub failed! Try again later."
 
-
-#############################################
-### Installs from Mac App Store
-#############################################
-
-echo "Installing apps from the App Store..."
-
-### find app ids with: mas search "app name"
-brew install mas
-
-### Mas login is currently broken on mojave. See:
-### Login manually for now.
-
-cecho "Need to log in to App Store manually to install apps with mas...." $red
-echo "Opening App Store. Please login."
-open "/Applications/App Store.app"
-echo "Is app store login complete.(y/n)? "
-read response
-if [ "$response" != "${response#[Yy]}" ]
-then
-	mas install 907364780  # Tomato One - Pomodoro timer
-else
-	cecho "App Store login not complete. Skipping installing App Store Apps" $red
-fi
-
-
 #############################################
 ### Install NVM and Node LTS
 #############################################
@@ -325,8 +288,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 echo "Installing global Python packages..."
 
 pip3 install --upgrade pip
-pip3 install --user pylint
-pip3 install --user flake8
 pip3 install --user powerline-shell
 
 
@@ -522,10 +483,10 @@ defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 # TODO: 
 # clean up my personal repo to make it public
 # dotfiles for vs code, emacs, gitconfig, oh my zsh, etc. 
-# git clone git@github.com:notmyself/dotfiles.git
-# cd dotfiles
+git clone git@github.com:notmyself/dotfiles.git ~/.dotfiles
+ pushd ~/.dotfiles
 # fetch submodules for oh-my-zsh
-# git submodule init && git submodule update && git submodule status
+git submodule init && git submodule update && git submodule status
 # make symbolic links and change shell to zshell
 # ./makesymlinks.sh
 # upgrade_oh_my_zsh
