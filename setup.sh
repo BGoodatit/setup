@@ -143,6 +143,7 @@ brew cask install visual-studio-code
 ### Security
 brew cask install tunnelbear
 brew cask install 1password
+brew cask install 1password-cli
 
 
 ### Conferences, Blogging, Screencasts
