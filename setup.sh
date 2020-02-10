@@ -127,6 +127,9 @@ brew install pyenv
 ### .net core
 brew cask install dotnet-sdk
 
+### Java Runtime
+brew cask install java
+
 ### Dev Editors 
 brew cask install visual-studio-code
 
