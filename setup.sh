@@ -115,6 +115,7 @@ brew cask install docker
 brew cask install iterm2
 brew install git  # upgrade to latest
 brew install git-lfs # track large files in git https://github.com/git-lfs/git-lfs
+brew install hub
 brew install wget
 brew install tree
 brew install grep --with-default-names
