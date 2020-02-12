@@ -121,6 +121,7 @@ brew install wget
 brew install tree
 brew install grep --with-default-names
 brew install trash  # move to osx trash instead of rm
+brew install m-cli
 
 ### Python
 brew install python
