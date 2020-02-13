@@ -140,7 +140,7 @@ brew cask install visual-studio-code
 brew cask install tunnelbear
 brew cask install 1password
 brew cask install 1password-cli
-brew install gnupg
+brew install gnupg # PGP 
 
 ### Conferences, Blogging, Screencasts
 brew cask install grammarly
