@@ -150,6 +150,7 @@ brew cask install elgato-stream-deck
 brew cask install loopback
 brew cask install snagit
 brew cask install keycastr  # show key presses on screen (for gifs & screencasts)
+brew install ffmpeg --with-libvpx --with-libvorbis --with-fdk-aacc
 
 ### Design
 brew cask install sketch
