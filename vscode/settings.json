@@ -1,4 +1,29 @@
 {
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.quickSuggestions": {
+        "other": "inline",
+        "strings": "inline",
+        "comments": "inline"
+    },
+    "files.autoSave": "afterDelay",
+    "vim.commandLineModeKeyBindings": [],
+    "editor.renderWhitespace": "none",
+    "editor.guides.indentation": true,
+    "editor.wordBasedSuggestions": "allDocuments",
+    "files.autoSaveDelay": 1000,
+    "editor.fontFamily": "'Hack Nerd Font'",
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "solid",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.fontSize": 12,
+    "editor.formatOnPaste": false,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "redhat.telemetry.enabled": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.useCMakePresets": "always",
+    "security.workspace.trust.untrustedFiles": "open"
+}
+{
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.fontLigatures": true,
