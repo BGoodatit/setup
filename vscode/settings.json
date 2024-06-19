@@ -1,0 +1,97 @@
+{
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontLigatures": true,
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.sideBar.location": "right",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Mono for Powerline",
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    // Set the default
+    "editor.formatOnSave": false,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "debug.javascript.usePreview": true,
+    "codespaces.accountProvider": "GitHub",
+    "remote.extensionKind": {
+        "ms-azuretools.vscode-docker": "workspace"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "codetour.showMarkers": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.pinnedTabSizing": "compact",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "debug.javascript.suggestPrettyPrinting": false,
+    "editor.inlineSuggest.enabled": true,
+    "debug.javascript.autoAttachFilter": "onlyWithFlag",
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 2
+}

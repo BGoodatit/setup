@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+# shell settings
+rm ~/.zshrc
+
+# git configurations
+rm ~/.gitconfig
+
+
+# vscode settings
+rm /Users/bobby/Library/Application\ Support/Code/User/settings.json
+rm /Users/bobby/Library/Application\ Support/Code/User/keybindings.json
+rm -r /Users/bobby/Library/Application\ Support/Code/User/snippets
